@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*  Pulse Animation */
+
+body {
+  font-family: sans-serif;
+}
+
+.iconSVGPulse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 30%;
+}
+
+.heading h1 {
+  font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.graph-table {
+  width: auto;
+  height: 30cm;
+}
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #fff; /* Set the border color to black (#000) */
+}
+td.no-left-border {
+  border-left: none; /* Remove the left border */
+}
+td.no-right-border {
+  border-right: none; /* Remove the left border */
+}
+td.no-top-border {
+  border-top: none; /* Remove the top border */
+}
+td.no-bottom-border {
+  border-bottom: none; /* Remove the top border */
+}
+
+.iconSVGPulse .path-pulse {
+  stroke-dasharray: 6423;
+  animation: dashPathPulse 5s linear infinite;
+}
+
+@keyframes dashPathPulse {
+  0% {
+    stroke-dashoffset: 12423;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.bpm-value {
+  font-size: 44px; /* Increase the font size as desired */
+  color: rgb(14, 233, 14); /* Change the color to your preferred color */
+}
+
+.res-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: yellow; /* Change the color to your preferred color */
+}
+
+.temp-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: orange; /* Change the color to your preferred color */
+}
+
+.sp-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: white; /* Change the color to your preferred color */
+}
+
+.c2-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: rgb(243, 29, 161); /* Change the color to your preferred color */
+}
+
+.ib-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: red; /* Change the color to your preferred color */
+}
+
+.nb-value {
+  font-size: 34px; /* Increase the font size as desired */
+  color: white; /* Change the color to your preferred color */
+}

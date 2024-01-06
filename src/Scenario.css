@@ -1,0 +1,83 @@
+/* Scenario.css */
+
+/* Style the user input form */
+.user-input-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.user-input-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-input-form input[type="text"],
+.user-input-form textarea,
+.user-input-form select,
+.user-input-form input[type="number"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.user-input-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style the display section */
+.display-section {
+  margin-top: 20px;
+}
+
+.display-section h3 {
+  font-size: 18px;
+}
+
+.display-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.display-section li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the "Submit Scenario" button */
+.submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.user-dashboard {
+  position: relative;
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

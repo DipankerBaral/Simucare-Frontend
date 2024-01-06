@@ -1,0 +1,96 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+#anonymous-reporting-button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin-top: 10px; /* Adjust margin-top as needed */
+  margin-left: 10px;
+  background-color: #007bff; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#anonymous-reporting-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Add this to your CSS file */
+.submit-button,
+.register-button {
+  width: 100px; /* Adjust the width as needed */
+  padding: 10px; /* Add padding to adjust button size */
+  /* Add any other desired styles */
+}
+.register-button {
+  position: absolute;
+  top: 20px; /* Adjust the top distance as needed */
+  right: 20px; /* Adjust the right distance as needed */
+  background-color: #007bff; /* Example background color for the Register button */
+  color: #fff; /* Example text color for the Register button */
+  /* Add any other desired styles */
+}
